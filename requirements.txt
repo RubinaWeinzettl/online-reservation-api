@@ -1,0 +1,12 @@
+# MVP dependencies
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-jose
+pymysql
+
+# Optional: development & testing
+pytest
+httpx
+alembic
