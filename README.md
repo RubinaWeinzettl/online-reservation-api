@@ -1,83 +1,90 @@
-# Online Reservierung – API
+⚠️ Project Status: Archived
 
-**Kurz für Scanner*innen**
+This repository is no longer under active development.
+It remains public as a portfolio reference for architecture,
+service design, and DevOps-related decisions.
 
-Backend-API für eine serviceorientierte Online-Reservierungsanwendung.  
-Teil eines Microservice-Portfolios mit Fokus auf saubere Architektur, klare Schnittstellen und praxisnahe Backend-Entwicklung.
+# Online Reservation – API
 
----
+**Quick overview (scanner-friendly)**
 
-## Überblick
-
-Dieses Repository enthält die **API-Komponente** des Portfolio-Projekts **Online Reservierung**.
-
-Die API bildet das backendseitige Fundament der Anwendung und stellt klar definierte Schnittstellen für reservierungsbezogene Geschäftslogik bereit.  
-Der Schwerpunkt liegt auf **Struktur**, **Nachvollziehbarkeit** und **Erweiterbarkeit**, nicht auf schneller Feature-Vollständigkeit.
-
-Das Projekt ist bewusst als **Work in Progress** angelegt und entwickelt sich schrittweise weiter.
+Backend API for a service-oriented online reservation application.  
+Part of a microservice-focused portfolio with an emphasis on clean architecture, clear interfaces, and practical backend development.
 
 ---
 
-## Zielsetzung
+## Overview
 
-Ziel dieses Projekts ist es, eine Backend-API zu entwickeln, die:
+This repository contains the **API component** of the portfolio project **Online Reservation**.
 
-- realistische Anforderungen abbildet  
-- wartbar und verständlich strukturiert ist  
-- klare Verantwortlichkeiten besitzt  
-- sich in eine serviceorientierte Architektur einfügt  
-- als Grundlage für spätere Microservices dient  
+The API forms the backend foundation of the application and provides clearly defined interfaces for reservation-related business logic.  
+The primary focus is on **structure**, **traceability**, and **extensibility**, not on rapid feature completeness.
 
-Der Fokus liegt auf **sauberem API-Design** und **klarer Businesslogik**, nicht auf UI- oder Framework-Showcases.
+The project is intentionally designed as a **work in progress** and evolves incrementally.
 
 ---
 
-## Architekturidee
+## Objective
 
-Die API folgt einem **API-first-Ansatz** und ist so aufgebaut, dass:
+The goal of this project is to develop a backend API that:
 
-- Routing, Businesslogik und Persistenz klar getrennt sind  
-- Datenmodelle und Schnittstellen explizit definiert werden  
-- Erweiterungen (z. B. Auth-Service, User-Service) über separate Services möglich sind  
+- reflects realistic requirements  
+- is maintainable and clearly structured  
+- has well-defined responsibilities  
+- fits into a service-oriented architecture  
+- serves as a foundation for future microservices  
 
-Weitere fachliche oder technische Services werden in **eigenständigen Repositories** umgesetzt und über definierte Schnittstellen angebunden.
+The focus is on **clean API design** and **clear business logic**, not on UI or framework showcases.
 
 ---
 
-## Technischer Stack
+## Architectural Concept
+
+The API follows an **API-first approach** and is structured so that:
+
+- routing, business logic, and persistence are clearly separated  
+- data models and interfaces are explicitly defined  
+- extensions (e.g. auth service, user service) can be implemented as separate services  
+
+Additional domain-specific or technical services are implemented in **separate repositories** and integrated via well-defined interfaces.
+
+---
+
+## Technical Stack
 
 - Python 3.11  
 - FastAPI  
-- Pydantic (Request-/Response-Validierung)  
-- SQLAlchemy (Persistenzschicht)  
-- Docker (lokale Entwicklungsumgebung)  
+- Pydantic (request/response validation)  
+- SQLAlchemy (persistence layer)  
+- Docker (local development environment)  
 - Git & GitHub  
 
 ---
 
-## Projektstatus
+## Project Status
 
 🚧 **Work in Progress**
 
-**Stand: 07.01.2025**
+**Status: 07 January 2025**
 
-Der aktuelle Stand bildet den Entwicklungsfortschritt zum oben genannten Datum ab.  
-Änderungen an Architektur, Struktur und Implementierung sind während des laufenden Entwicklungsprozesses ausdrücklich vorbehalten.
+The current state reflects the development progress as of the date above.  
+Changes to architecture, structure, and implementation are explicitly expected during the ongoing development process.
 
-Aktueller Fokus:
+Current focus:
 
-- stabile Projekt- und Ordnerstruktur  
-- saubere Trennung der Schichten  
-- verständliche, nachvollziehbare API-Endpunkte  
-- bewusste Dokumentation von Architekturentscheidungen  
+- stable project and folder structure  
+- clean separation of layers  
+- understandable and traceable API endpoints  
+- conscious documentation of architectural decisions  
 
-Funktionale Erweiterungen erfolgen schrittweise.
+Functional extensions are added incrementally.
 
 ---
 
-## Einordnung im Portfolio
+## Portfolio Context
 
-Dieses Projekt ist Teil meines Developer-Portfolios und zeigt meinen Übergang von klassischer Web-Applikationsentwicklung hin zu **API- und serviceorientierter Backend-Architektur**.
+This project is part of my developer portfolio and demonstrates my transition from classic web application development towards **API- and service-oriented backend architecture**.
 
-Der Anspruch ist nicht Perfektion, sondern **Realismus**:  
-Entscheidungen, Abwägungen und technische Kompromisse sollen sichtbar und nachvollziehbar bleiben.
+The goal is not perfection, but **realism**:  
+decisions, trade-offs, and technical compromises are meant to remain visible and understandable.
+
